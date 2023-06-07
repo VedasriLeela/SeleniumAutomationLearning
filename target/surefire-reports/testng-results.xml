@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-25T13:26:55 IST" name="Suite" finished-at="2023-05-25T13:27:35 IST" duration-ms="39568">
+    <groups>
+    </groups>
+    <test started-at="2023-05-25T13:26:55 IST" name="Test" finished-at="2023-05-25T13:27:35 IST" duration-ms="39568">
+      <class name="ddtExample.NOPCommDDT">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:ddtExample.NOPCommDDT@6989da5e]" started-at="2023-05-25T13:26:55 IST" name="launchApp" finished-at="2023-05-25T13:27:02 IST" duration-ms="6612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyLoginWithInValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:ddtExample.NOPCommDDT@6989da5e]" started-at="2023-05-25T13:27:02 IST" name="verifyLoginWithInValidCredentials" data-provider="regressionData" finished-at="2023-05-25T13:27:10 IST" duration-ms="7883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gayatri_reg@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[welcome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidCredentials -->
+        <test-method signature="verifyLoginWithInValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:ddtExample.NOPCommDDT@6989da5e]" started-at="2023-05-25T13:27:10 IST" name="verifyLoginWithInValidCredentials" data-provider="regressionData" finished-at="2023-05-25T13:27:17 IST" duration-ms="6905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harish_reg@google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidCredentials -->
+        <test-method signature="verifyLoginWithInValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:ddtExample.NOPCommDDT@6989da5e]" started-at="2023-05-25T13:27:17 IST" name="verifyLoginWithInValidCredentials" data-provider="regressionData" finished-at="2023-05-25T13:27:24 IST" duration-ms="6954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhavani_reg@google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidCredentials -->
+        <test-method signature="verifyLoginWithInValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:ddtExample.NOPCommDDT@6989da5e]" started-at="2023-05-25T13:27:24 IST" name="verifyLoginWithInValidCredentials" data-provider="regressionData" finished-at="2023-05-25T13:27:30 IST" duration-ms="6861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nithia_reg@google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidCredentials -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:ddtExample.NOPCommDDT@6989da5e]" started-at="2023-05-25T13:27:30 IST" name="closeApp" finished-at="2023-05-25T13:27:35 IST" duration-ms="4254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- ddtExample.NOPCommDDT -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
